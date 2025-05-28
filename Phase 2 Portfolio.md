@@ -1,398 +1,399 @@
 # Project Charter: AIBet
-## Plateforme de prédictions sportives par intelligence artificielle avec analyse contextuelle
 
-**Date de création:** 28/05/2025
+## Sports Prediction Platform Powered by Artificial Intelligence with Contextual Analysis
+
+**Creation Date:** 05/28/2025  
 **Version:** 1.0
 
 ---
 
 ## 1. Project Objectives
 
-### 1.1 Purpose (Objectif général)
-Développer une plateforme web innovante qui utilise l'intelligence artificielle pour générer des prédictions sportives précises en analysant non seulement les données statistiques traditionnelles, mais aussi le contexte via l'analyse de contenus textuels (articles de presse, commentaires d'experts, réseaux sociaux) pour offrir aux utilisateurs des prédictions plus fiables et nuancées que les solutions existantes.
+### 1.1 Purpose (General Objective)
+Develop an innovative web platform that uses artificial intelligence to generate accurate sports predictions by analyzing not only traditional statistical data but also contextual and news factors.
 
 ### 1.2 SMART Objectives
 
-#### Objectif 1: Développement technique
-**S** (Spécifique): Créer un MVP fonctionnel avec système de prédictions IA, interface utilisateur, et intégration de sources de données contextuelles
-**M** (Mesurable): 
-- Interface web responsive
-- Algorithme d'IA capable de traiter 100+ articles par jour
-- Précision des prédictions ≥ 65% sur données de test
-**A** (Atteignable): Utilisation de technologies maîtrisées (Python, frameworks web, APIs ML)
-**R** (Pertinent): Base technique solide pour le lancement et les itérations futures
-**T** (Temporel): **Échéance: 3 mois** (fin août 2025)
+#### Objective 1: Technical Development
+**S** (Specific): Create a functional MVP with AI prediction system, user interface, and integration of contextual data sources  
+**M** (Measurable): 
+- Responsive web interface
+- AI algorithm able to process 100+ articles per day
+- Prediction accuracy ≥ 65% on test data  
+**A** (Achievable): Use of familiar technologies (Python, web frameworks, ML APIs)  
+**R** (Relevant): Solid technical base for launch and future iterations  
+**T** (Time-bound): **Deadline: 3 months** (end of August 2025)
 
-#### Objectif 2: Validation marché
-**S** (Spécifique): Valider l'intérêt utilisateur et la viabilité du concept via tests utilisateurs et métriques d'engagement
-**M** (Mesurable):
-- Utilisateurs beta testeurs recrutés
-**A** (Atteignable): Réseau personnel et communautés sportives en ligne
-**R** (Pertinent): Validation essentielle avant investissement en développement avancé
-**T** (Temporel): **Échéance: 4 mois** (fin septembre 2025)
+#### Objective 2: Market Validation
+**S** (Specific): Validate user interest and concept viability through user tests and engagement metrics  
+**M** (Measurable):  
+- Beta testers recruited  
+**A** (Achievable): Personal network and online sports communities  
+**R** (Relevant): Essential validation before advanced development investment  
+**T** (Time-bound): **Deadline: 4 months** (end of September 2025)
 
 ---
 
 ## 2. Stakeholders and Roles
 
-### 2.1 Stakeholders principaux
+### 2.1 Main Stakeholders
 
-#### Stakeholders internes
-- **Développeur/Fondateur** Responsabilité complète du projet ( moi meme )
+#### Internal Stakeholders
+- **Developer/Founder**: Full responsibility for the project (myself)
 
-#### Stakeholders externes
-- **Utilisateurs finaux**: 
-  - Amateurs de sport cherchant des prédictions fiables
-  - Parieurs occasionnels et réguliers
-  - Analystes sportifs amateurs
-- **Sources de données**:
-  - Sites d'actualités sportives
-  - APIs de données sportives (api-football)
-  - Plateformes sociales
-  - Recherche sur le web en direct
-- **Partenaires potentiels**:
-  - Médias sportifs pour distribution
-  - Influenceurs sportifs pour promotion
-  - Bookmakers pour intégration B2B
+#### External Stakeholders
+- **End Users**:  
+  - Sports fans seeking reliable predictions
+  - Occasional and regular bettors
+  - Amateur sports analysts
+- **Data Sources**:  
+  - Sports news websites
+  - Sports data APIs (api-football)
+  - Social platforms
+  - Live web research
+- **Potential Partners**:  
+  - Sports media for distribution
+  - Sports influencers for promotion
+  - Bookmakers for B2B integration
 
-#### Stakeholders réglementaires
-- **Autorités de protection des données**: Conformité RGPD
-- **Propriétaires de contenus**: Respect des droits d'auteur et conditions d'utilisation
+#### Regulatory Stakeholders
+- **Data Protection Authorities**: GDPR compliance
+- **Content Owners**: Respect for copyrights and terms of use
 
-### 2.2 Description des rôles (Projet solo)
+### 2.2 Role Descriptions (Solo Project)
 
-#### Rôle: Product Owner & Chef de projet
-**Responsabilités:**
-- Définition de la vision produit et roadmap
-- Priorisation des fonctionnalités
-- Communication avec les stakeholders
+#### Role: Product Owner & Project Manager
+**Responsibilities:**
+- Define product vision and roadmap
+- Feature prioritization
+- Communication with stakeholders
 
-#### Rôle: Développeur Full-Stack
-**Responsabilités:**
-- Architecture technique et développement
-- Frontend: Interface utilisateur responsive
-- Backend: APIs, base de données, authentification
-- DevOps: Déploiement et monitoring
-- CI/CD: Github actions
+#### Role: Full-Stack Developer
+**Responsibilities:**
+- Technical architecture and development
+- Frontend: Responsive user interface
+- Backend: APIs, database, authentication
+- DevOps: Deployment and monitoring
+- CI/CD: GitHub Actions
 
-#### Rôle: Data Scientist / ML Engineer
-**Responsabilités:**
-- Conception des algorithmes de prédiction
-- Développement des modèles d'IA/ML
-- Traitement et analyse des données
-- Optimisation des performances des modèles
+#### Role: Data Scientist / ML Engineer
+**Responsibilities:**
+- Design prediction algorithms
+- Develop AI/ML models
+- Data processing and analysis
+- Optimize model performance
 
-#### Rôle: Analyste métier (Sport)
-**Responsabilités:**
-- Compréhension des mécaniques sportives
-- Identification des facteurs prédictifs pertinents
-- Validation de la logique métier des prédictions
-- Définition des métriques de performance
+#### Role: Business Analyst (Sport)
+**Responsibilities:**
+- Understand sports mechanics
+- Identify relevant predictive factors
+- Validate business logic of predictions
+- Define performance metrics
 
-#### Rôle: Responsable QA & Tests
-**Responsabilités:**
-- Tests fonctionnels et techniques
-- Validation des prédictions sur données historiques
-- Tests utilisateurs et collecte de feedback
-- Assurance qualité continue
+#### Role: QA & Testing Lead
+**Responsibilities:**
+- Functional and technical tests
+- Validate predictions on historical data
+- User tests and feedback collection
+- Continuous quality assurance
 
 ---
 
 ## 3. Scope
 
-### 3.1 In-Scope (Inclus dans le projet)
+### 3.1 In-Scope (Included in the project)
 
-#### Fonctionnalités MVP
-✅ **Interface utilisateur web**
-- Page d'accueil avec CTA
-- Pages détaillées par match avec analyse
-- Dashboard utilisateur avec historique et bankroll
-- Système d'inscription/connexion basique
+#### MVP Features
+✅ **Web User Interface**
+- Homepage with CTA
+- Detailed match pages with analysis
+- User dashboard with history and bankroll
+- Basic registration/login system
 
-✅ **Moteur de prédictions IA**
-- Algorithmes de machine learning pour prédictions
-- Intégration de données statistiques traditionnelles
-- Analyse de sentiment des articles de presse
-- Corrélation de facteurs contextuels multiples
+✅ **AI Prediction Engine**
+- Machine learning algorithms for predictions
+- Integration of traditional statistical data
+- Sentiment analysis of press articles
+- Correlation of multiple contextual factors
 
-✅ **Système de collecte de données**
-- Intégration APIs de données sportives officielles
-- Collecte de données météorologiques
-- Historique des performances équipes/joueurs
+✅ **Data Collection System**
+- Integration of official sports data APIs
+- Collection of weather data
+- Team/player performance history
 
-✅ **Fonctionnalités de base**
-- Système de notation de confiance des prédictions
-- Historique et tracking de performance
+✅ **Basic Features**
+- Prediction confidence scoring system
+- Performance history and tracking
 
-#### Sports couverts (Phase 1)
-✅ **Football (Soccer)** - Sport principal
-- Ligues majeures: Premier League, La Liga, Serie A, Bundesliga, Ligue 1
-- Coupes nationales et européennes
-- Matchs internationaux
+#### Sports Covered (Phase 1)
+✅ **Football (Soccer)** – Main sport
+- Major leagues: Premier League, La Liga, Serie A, Bundesliga, Ligue 1
+- National and European cups
+- International matches
 
-#### Technologies et infrastructure
-✅ **Stack technique défini**
+#### Technologies and Infrastructure
+✅ **Defined Technical Stack**
 - Frontend: React/Next.js
 - Backend: Python (Django)
-- Base de données: PostgreSQL
+- Database: PostgreSQL
 - ML: Python (scikit-learn, TensorFlow/PyTorch)
-- Cloud: AWS/GCP pour hébergement
+- Cloud: AWS/GCP for hosting
 
-### 3.2 Out-of-Scope (Exclu du projet MVP)
+### 3.2 Out-of-Scope (Excluded from MVP)
 
-#### Fonctionnalités avancées (Phase 2+)
-❌ **Application mobile native** (iOS/Android)
+#### Advanced Features (Phase 2+)
+❌ **Native Mobile App** (iOS/Android)
 
-#### Sports additionnels (Phase 2+)
+#### Additional Sports (Phase 2+)
 ❌ **Basketball** (NBA, Euroleague)
-❌ **Tennis** (tournois majeurs)
-❌ **Sports américains** (NFL, MLB, NHL)
-❌ **Sports de niche** (handball, volleyball, etc.)
+❌ **Tennis** (major tournaments)
+❌ **American sports** (NFL, MLB, NHL)
+❌ **Niche sports** (handball, volleyball, etc.)
 
-#### Fonctionnalités business avancées
-❌ **Programme d'affiliation**
-❌ **Système de paiement et abonnements**
+#### Advanced Business Features
+❌ **Affiliate program**
+❌ **Payment and subscription system**
 
-#### Intégrations complexes
-❌ **Streaming de données en temps réel**
-❌ **Intégration réseaux sociaux complète**
-❌ **Système de notifications push mobile**
+#### Complex Integrations
+❌ **Real-time data streaming**
+❌ **Full social media integration**
+❌ **Mobile push notification system**
 
 ---
 
 ## 4. Risks
 
-### 4.1 Risques techniques
+### 4.1 Technical Risks
 
-#### Risque 1: Qualité et disponibilité des données
-**Probabilité:** Élevée | **Impact:** Élevé
-**Description:** Difficultés d'accès aux données fiables, changements dans les APIs
-**Stratégies de mitigation:**
-- Diversifier les sources de données
-- Établir des accords avec fournisseurs de données officiels
-- Créer un système de fallback avec données cached
+#### Risk 1: Data Quality and Availability
+**Probability:** High | **Impact:** High  
+**Description:** Difficulties accessing reliable data, API changes  
+**Mitigation Strategies:**
+- Diversify data sources
+- Establish agreements with official data providers
+- Create a fallback system with cached data
 
-#### Risque 2: Performance des algorithmes IA
-**Probabilité:** Moyenne | **Impact:** Élevé
-**Description:** Précision des prédictions insuffisante, overfitting, biais dans les modèles
-**Stratégies de mitigation:**
-- Tests rigoureux sur données historiques (3+ années)
-- Validation croisée et métriques multiples
-- Mise à jour continue des modèles
-- Transparence sur les limites et incertitudes
+#### Risk 2: AI Algorithm Performance
+**Probability:** Medium | **Impact:** High  
+**Description:** Insufficient prediction accuracy, overfitting, model bias  
+**Mitigation Strategies:**
+- Rigorous testing on historical data (3+ years)
+- Cross-validation and multiple metrics
+- Continuous model updates
+- Transparency on limitations and uncertainties
 
-#### Risque 3: Scalabilité technique
-**Probabilité:** Moyenne | **Impact:** Moyen
-**Description:** Performance dégradée avec l'augmentation du volume de données/utilisateurs
-**Stratégies de mitigation:**
-- Architecture cloud-native dès le début
-- Monitoring des performances en continu
-- Optimisation progressive des algorithmes
-- Plan de scaling horizontal préparé
+#### Risk 3: Technical Scalability
+**Probability:** Medium | **Impact:** Medium  
+**Description:** Degraded performance with increased data/user volume  
+**Mitigation Strategies:**
+- Cloud-native architecture from the start
+- Continuous performance monitoring
+- Progressive algorithm optimization
+- Prepared horizontal scaling plan
 
-### 4.2 Risques business
+### 4.2 Business Risks
 
-#### Risque 4: Adoption utilisateur limitée
-**Probabilité:** Moyenne | **Impact:** Élevé
-**Description:** Difficulté à acquérir et retenir les utilisateurs dans un marché concurrentiel
-**Stratégies de mitigation:**
-- Validation précoce avec beta testeurs
-- Stratégie de contenu et SEO
-- Partenariats avec influenceurs sportifs
+#### Risk 4: Limited User Adoption
+**Probability:** Medium | **Impact:** High  
+**Description:** Difficulty acquiring and retaining users in a competitive market  
+**Mitigation Strategies:**
+- Early validation with beta testers
+- Content and SEO strategy
+- Partnerships with sports influencers
 
-#### Risque 5: Concurrence des acteurs établis
-**Probabilité:** Élevée | **Impact:** Moyen
-**Description:** Réaction des grands acteurs, copie des fonctionnalités innovantes
-**Stratégies de mitigation:**
-- Focus sur la différenciation (analyse contextuelle)
-- Développement rapide et itératif
-- Construction d'une communauté fidèle
-- Protection intellectuelle des innovations clés
+#### Risk 5: Competition from Established Players
+**Probability:** High | **Impact:** Medium  
+**Description:** Reaction from major players, copying of innovative features  
+**Mitigation Strategies:**
+- Focus on differentiation (contextual analysis)
+- Rapid and iterative development
+- Build a loyal community
+- Intellectual protection of key innovations
 
-### 4.3 Risques légaux et réglementaires
+### 4.3 Legal and Regulatory Risks
 
-#### Risque 6: Problèmes de conformité RGPD
-**Probabilité:** Moyenne | **Impact:** Élevé
-**Description:** Non-conformité avec les réglementations sur la protection des données
-**Stratégies de mitigation:**
-- Audit RGPD dès la conception
-- Privacy by design dans l'architecture
+#### Risk 6: GDPR Compliance Issues
+**Probability:** Medium | **Impact:** High  
+**Description:** Non-compliance with data protection regulations  
+**Mitigation Strategies:**
+- GDPR audit from the design stage
+- Privacy by design in the architecture
 
-#### Risque 7: Droits d'auteur
-**Probabilité:** Moyenne | **Impact:** Moyen
-**Description:** Réclamations pour utilisation non autorisée de contenus
-**Stratégies de mitigation:**
-- Respect strict des conditions d'utilisation
-- Fair use et transformation des contenus
-- Accords de licence avec les sources principales
+#### Risk 7: Copyright Issues
+**Probability:** Medium | **Impact:** Medium  
+**Description:** Claims for unauthorized content use  
+**Mitigation Strategies:**
+- Strict compliance with terms of use
+- Fair use and content transformation
+- License agreements with main sources
 
-### 4.4 Risques personnels/ressources
+### 4.4 Personal/Resource Risks
 
-#### Risque 8: Burnout et surcharge de travail
-**Probabilité:** Moyenne | **Impact:** Élevé
-**Description:** Épuisement dû à la charge de travail en solo
-**Stratégies de mitigation:**
-- Priorisation stricte des fonctionnalités
-- Équilibre vie professionnelle/personnelle
+#### Risk 8: Burnout and Work Overload
+**Probability:** Medium | **Impact:** High  
+**Description:** Exhaustion due to solo workload  
+**Mitigation Strategies:**
+- Strict feature prioritization
+- Work/life balance
 
 ---
 
 ## 5. High-Level Plan
 
-### 5.1 Vue d'ensemble du planning
+### 5.1 Planning Overview
 
-**Durée totale:** 5 mois (Avril - Aout 2025)
-**Méthodologie:** Agile avec sprints de 2 semaines
-**Jalons majeurs:** 4 phases distinctes avec livrables
+**Total duration:** 5 months (April – August 2025)  
+**Methodology:** Agile with 2-week sprints  
+**Major milestones:** 4 distinct phases with deliverables
 
-### 5.2 Phase 1: Foundation & Research (Avril 2025)
-**Durée:** 4 semaines
-**Objectif:** Établir les bases techniques et valider l'approche
+### 5.2 Phase 1: Foundation & Research (April 2025)
+**Duration:** 4 weeks  
+**Objective:** Establish technical foundations and validate approach
 
-#### Semaines 1-2: Architecture & Setup
-- Finalisation de l'architecture technique
-- Setup de l'environnement de développement
-- Configuration des outils de monitoring et CI/CD
-- Recherche approfondie sur les sources de données
+#### Weeks 1-2: Architecture & Setup
+- Finalize technical architecture
+- Set up development environment
+- Configure monitoring and CI/CD tools
+- In-depth research on data sources
 
-#### Semaines 3-4: Proof of Concept
-- Développement d'un prototype de scraping
-- Premier modèle ML basique avec données historiques
-- Tests de faisabilité sur l'analyse de sentiment
-- Validation technique des APIs sportives
+#### Weeks 3-4: Proof of Concept
+- Develop a scraping prototype
+- Initial basic ML model with historical data
+- Feasibility tests on sentiment analysis
+- Technical validation of sports APIs
 
-**Livrables:**
-- Architecture technique documentée
-- Prototype fonctionnel de collecte de données
-- Premier modèle de prédiction basique
-- Plan détaillé des phases suivantes
+**Deliverables:**
+- Documented technical architecture
+- Functional data collection prototype
+- First basic prediction model
+- Detailed plan for next phases
 
-### 5.3 Phase 2: MVP Development (Mai 2025)
-**Durée:** 4 semaines
-**Objectif:** Développer le MVP fonctionnel
+### 5.3 Phase 2: MVP Development (May 2025)
+**Duration:** 4 weeks  
+**Objective:** Develop functional MVP
 
-#### Semaines 5-6: Backend Development
-- Développement des APIs backend
-- Implémentation du système de collecte de données
-- Base de données et modèles de données
-- Système d'authentification basique
+#### Weeks 5-6: Backend Development
+- Develop backend APIs
+- Implement data collection system
+- Database and data models
+- Basic authentication system
 
-#### Semaines 7-8: Frontend & ML Integration
-- Interface utilisateur responsive
-- Intégration des modèles ML dans l'application
-- Système de prédictions automatisé
-- Tests d'intégration complets
+#### Weeks 7-8: Frontend & ML Integration
+- Responsive user interface
+- Integrate ML models into the app
+- Automated prediction system
+- Full integration testing
 
-**Livrables:**
-- MVP fonctionnel déployé
-- Interface utilisateur complète
-- Système de prédictions opérationnel
-- Documentation utilisateur
+**Deliverables:**
+- Functional deployed MVP
+- Complete user interface
+- Operational prediction system
+- User documentation
 
-### 5.4 Phase 3: Testing & Refinement (Juin 2025)
-**Durée:** 4 semaines
-**Objectif:** Optimiser et valider le produit
+### 5.4 Phase 3: Testing & Refinement (June 2025)
+**Duration:** 4 weeks  
+**Objective:** Optimize and validate the product
 
-#### Semaines 9-10: Internal Testing
-- Tests approfondis de toutes les fonctionnalités
-- Optimisation des performances
-- Amélioration de la précision des modèles
-- Correction des bugs critiques
+#### Weeks 9-10: Internal Testing
+- Thorough testing of all features
+- Performance optimization
+- Model accuracy improvement
+- Fix critical bugs
 
-#### Semaines 11-12: Beta Testing
-- Recrutement de 50 beta testeurs
-- Collecte de feedback utilisateur
-- Itérations basées sur les retours
+#### Weeks 11-12: Beta Testing
+- Recruit 50 beta testers
+- Collect user feedback
+- Iterations based on feedback
 
-**Livrables:**
-- Version beta stable
-- Rapport de tests utilisateurs
-- Métriques de performance validées
-- Plan d'amélioration continue
+**Deliverables:**
+- Stable beta version
+- User test report
+- Validated performance metrics
+- Continuous improvement plan
 
-### 5.5 Phase 4: Market Validation & Business Planning (Juillet-Aout 2025)
-**Durée:** 6 semaines
-**Objectif:** Préparer la commercialisation
+### 5.5 Phase 4: Market Validation & Business Planning (July–August 2025)
+**Duration:** 6 weeks  
+**Objective:** Prepare for commercialization
 
-#### Semaines 13-15: Market Validation
-- Analyse approfondie des métriques utilisateur
-- Interviews avec les beta testeurs
-- Étude de marché et positionnement concurrentiel
-- Validation du product-market fit
+#### Weeks 13-15: Market Validation
+- In-depth analysis of user metrics
+- Interviews with beta testers
+- Market study and competitive positioning
+- Product-market fit validation
 
-#### Semaines 16-18: Business Development
-- Développement du business plan complet
-- Stratégie de pricing et monétisation
-- Plan de marketing et acquisition
-- Préparation pour le lancement public
+#### Weeks 16-18: Business Development
+- Develop complete business plan
+- Pricing and monetization strategy
+- Marketing and acquisition plan
+- Preparation for public launch
 
-**Livrables:**
-- Business plan complet
-- Stratégie go-to-market
+**Deliverables:**
+- Complete business plan
+- Go-to-market strategy
 
-### 5.6 Jalons critiques et points de décision
+### 5.6 Critical Milestones and Decision Points
 
-#### Jalon 1 (Fin Mai): Go/No-Go technique
-**Critères:** Faisabilité technique validée, données accessibles, prototype fonctionnel
-**Décision:** Continuer le développement ou pivoter sur l'approche
+#### Milestone 1 (End of May): Technical Go/No-Go
+**Criteria:** Technical feasibility validated, accessible data, functional prototype  
+**Decision:** Continue development or pivot approach
 
-#### Jalon 2 (Fin Juillet): MVP Ready
-**Critères:** Application fonctionnelle, prédictions générées, interface utilisable
-**Décision:** Lancer les tests beta ou prolonger le développement
+#### Milestone 2 (End of July): MVP Ready
+**Criteria:** Functional application, predictions generated, usable interface  
+**Decision:** Launch beta tests or extend development
 
-#### Jalon 3 (Fin Août): User Validation
-**Critères:** Feedback positif, métriques d'engagement satisfaisantes, bugs critiques résolus
-**Décision:** Préparer la commercialisation ou retravailler le produit
+#### Milestone 3 (End of August): User Validation
+**Criteria:** Positive feedback, satisfactory engagement metrics, critical bugs fixed  
+**Decision:** Prepare commercialization or rework the product
 
-#### Jalon 4 (Fin Aout): Business Ready
-**Critères:** Business plan validé, stratégie claire, roadmap définie
-**Décision:** Lancement public ou recherche de financement
+#### Milestone 4 (End of August): Business Ready
+**Criteria:** Validated business plan, clear strategy, defined roadmap  
+**Decision:** Public launch or seek funding
 
 ---
 
 ## 6. Success Criteria
 
-### 6.1 Critères de succès techniques
-- ✅ Application web fonctionnelle et stable
-- ✅ Précision des prédictions ≥ 65% sur données de test
-- ✅ Temps de réponse < 3 secondes pour les prédictions
-- ✅ Uptime ≥ 99% durant la phase de test
+### 6.1 Technical Success Criteria
+- ✅ Functional and stable web application
+- ✅ Prediction accuracy ≥ 65% on test data
+- ✅ Response time < 3 seconds for predictions
+- ✅ Uptime ≥ 99% during the test phase
 
-### 6.2 Critères de succès utilisateur
-- ✅ 50 utilisateurs beta actifs recrutés
-- ✅ Note de satisfaction ≥ 4/5
-- ✅ 80% des utilisateurs recommanderaient le produit
+### 6.2 User Success Criteria
+- ✅ 50 active beta users recruited
+- ✅ Satisfaction score ≥ 4/5
+- ✅ 80% of users would recommend the product
 
-### 6.3 Critères de succès business
-- ✅ Stratégie de monétisation validée
-- ✅ Roadmap 12 mois prioritisée
-
----
-
-## 7. Budget et Ressources
-
-### 7.1 Budget estimé (5 mois)
-- **Hébergement cloud:** 30€/mois × 5 = 150€
-- **APIs et données:** 20€/mois × 5 = 100€
-- **Marketing/Tests:** A définir
-
-**Total estimé:** 250€
-
-### 7.2 Ressources humaines
-- **Développement:** 40h jusqu'a 60h/semaine × 20 semaines = 800h - 1200h
-
-**Total estimé:** Entre 800 heures et 1200h selon les périodes de travail intensives
+### 6.3 Business Success Criteria
+- ✅ Validated monetization strategy
+- ✅ 12-month prioritized roadmap
 
 ---
 
-## 8. Communication et Reporting
+## 7. Budget and Resources
 
-### 8.1 Suivi du projet
-- **Reporting hebdomadaire:** Journal de bord avec progrès et blocages
-- **Review mensuelle:** Évaluation des objectifs et ajustements
+### 7.1 Estimated Budget (5 months)
+- **Cloud hosting:** €30/month × 5 = €150
+- **APIs and data:** €20/month × 5 = €100
+- **Marketing/Testing:** To be defined
 
-### 8.2 Communication externe
-- **Blog de développement:** Articles réguliers sur les avancées
-- **Réseaux sociaux:** Partage du processus et engagement communauté
+**Estimated total:** €250
+
+### 7.2 Human Resources
+- **Development:** 40 to 60 hours/week × 20 weeks = 800h – 1200h
+
+**Estimated total:** Between 800 and 1200 hours depending on intensive work periods
+
+---
+
+## 8. Communication and Reporting
+
+### 8.1 Project Tracking
+- **Weekly reporting:** Logbook with progress and blockers
+- **Monthly review:** Objectives assessment and adjustments
+
+### 8.2 External Communication
+- **Development blog:** Regular articles on progress
+- **Social networks:** Sharing process and community engagement
 
 ---
