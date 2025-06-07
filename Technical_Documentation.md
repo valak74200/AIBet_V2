@@ -3200,7 +3200,3 @@ LOGGING = {
     }
 }
 ```
-
-Cette documentation technique complète fournit maintenant toutes les sections requises avec des justifications détaillées basées sur l'analyse réelle du code du projet AIBet V2.
-
----
