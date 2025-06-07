@@ -2,9 +2,8 @@
 ## Système de Prédiction Sportive Intelligent
 
 **Version :** 2.0  
-**Date :** Janvier 2025  
-**Auteur :** [Votre nom]  
-**Institution :** [Votre école]
+**Date :** Juin 2025  
+**Auteur :** LOUVEAU Clément
 
 ---
 
